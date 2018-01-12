@@ -35,7 +35,7 @@ class App extends Component {
 
             correctGuesses = 0;
             clickMessage = "Game Over! You've already clicked that image!";
-            alert(clickMessage);
+            
 
             for (let i = 0 ; i < characters.length ; i++){
                 characters[i].clicked = false;
@@ -47,9 +47,7 @@ class App extends Component {
 
         // Otherwise, ff clicked = false
         }
-        else if (this.state.correctGuesses === 12){
-          alert("Congrats you've beaten the game!");
-        }
+    
         else {
 
             // Set its value to true
@@ -57,6 +55,7 @@ class App extends Component {
 
             // increment the appropriate counter
             correctGuesses++;
+            clickMessage ="Correct! Keep clicking!"
             
 
             if (correctGuesses > topScore){
@@ -86,7 +85,8 @@ class App extends Component {
         <div className ="header-container">
           <header>
             
-              <p className ="score"><a href ="../../public">Clicky Game</a></p> &nbsp; &nbsp; &nbsp; &nbsp;
+              <p className ="score"><a href ="../../public">Start Over</a></p> &nbsp; &nbsp; &nbsp; &nbsp;
+              <h3 className = "score">{this.state.clickMessage}</h3>&nbsp;&nbsp;&nbsp;
               <p className ="score">Score: {this.state.correctGuesses}</p> &nbsp; &nbsp;
               <p className ="score">Top Score: {this.state.topScore} </p>
             

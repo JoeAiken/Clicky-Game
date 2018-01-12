@@ -1,6 +1,5 @@
 .title {
   width: 100%;
-  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -13,4 +12,7 @@
 .header-container{
   
   width: 100%;
+  border: 25px outset green;
+  padding: 25px;
+  margin: 25px;
 }
