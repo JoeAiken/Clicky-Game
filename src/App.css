@@ -3,3 +3,14 @@
   text-align: center;
   margin-bottom: 50px;
 }
+
+
+.score {
+  display: inline;
+
+}
+
+.header-container{
+  
+  width: 100%;
+}
