@@ -11,4 +11,4 @@
 
 * Once the user has clicked an image twice a game over message is displayed and the users score goes back to zero
 
-* Any time the user reaches a higher score the score is saved as Top Score until its surpassed
+* Users Top Score is also tracked and saved
