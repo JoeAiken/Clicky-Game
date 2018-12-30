@@ -12,7 +12,8 @@
 .header-container{
   
   width: 100%;
-  border: 25px outset green;
-  padding: 25px;
-  margin: 25px;
+  background: url(https://a9a7i7p4.stackpathcdn.com//wp-content/uploads/2014/03/DB_z.png) no-repeat left top;
+  background-size: contain;
+  padding: 10px;
+  
 }

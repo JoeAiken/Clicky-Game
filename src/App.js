@@ -85,10 +85,11 @@ class App extends Component {
         <div className ="header-container">
           <header>
             
-              <p className ="score"><a href ="../../public">Start Over</a></p> &nbsp; &nbsp; &nbsp; &nbsp;
+              
               <h3 className = "score">{this.state.clickMessage}</h3>&nbsp;&nbsp;&nbsp;
               <p className ="score">Score: {this.state.correctGuesses}</p> &nbsp; &nbsp;
-              <p className ="score">Top Score: {this.state.topScore} </p>
+              <p className ="score">Top Score: {this.state.topScore} </p> &nbsp; &nbsp; &nbsp; &nbsp;
+              <p className ="score"><a href ="../../public">Start Over</a></p> 
             
           </header>
         </div>
