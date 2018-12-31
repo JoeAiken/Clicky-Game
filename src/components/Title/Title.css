@@ -2,6 +2,51 @@
   width: 100%;
   text-align: center;
   font-size: 3rem;
-  color: #2A77AE;
+  color: white;
   margin-bottom: 50px;
+}
+
+button {
+
+  font-size: .7em;
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+  background: url(https://images.wikia.nocookie.net/__cb34/dragon-ball-z-kai/images/5/50/Wiki-background) no-repeat;
+  background-size: cover;
+  border: none;
+  color: white;
+  transition: all .2s ease-in-out;
+
+}
+
+button:hover{
+  transform: scale(1.2);
+}
+
+.titleContainer {
+  display: inline-block;
+  margin-right: 20%;
+}
+
+.topScore {
+  color:#FFFF33;
+  font-family: 'Permanent Marker', cursive;
+
+}
+
+.currentScore {
+  color:#00FF66;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.resetLink {
+  color: white;
+  font-weight: bold;
+  font-family:  'Permanent Marker', cursive;
+}
+
+.resetLink:hover {
+  text-decoration: none;
+  color: red;
 }

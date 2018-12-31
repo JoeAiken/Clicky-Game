@@ -85,11 +85,13 @@ class App extends Component {
         <div className ="header-container">
           <header>
             
-              
+            <div className = 'titleContainer'>
+              <img alt='Gohan'src='https://i.pinimg.com/originals/a8/94/06/a89406d3982f4b8129e28344259923a4.png' width='150px' height='auto'></img>
               <h3 className = "score">{this.state.clickMessage}</h3>&nbsp;&nbsp;&nbsp;
-              <p className ="score">Score: {this.state.correctGuesses}</p> &nbsp; &nbsp;
-              <p className ="score">Top Score: {this.state.topScore} </p> &nbsp; &nbsp; &nbsp; &nbsp;
-              <p className ="score"><a href ="../../public">Start Over</a></p> 
+            </div>
+              <p className ="score">Score: <span className='currentScore' >{this.state.correctGuesses}</span></p> &nbsp; &nbsp;
+              <p className ="score">Top Score: <span className='topScore'>{this.state.topScore}</span> </p> &nbsp; &nbsp; &nbsp; &nbsp;
+              <button className ="score"><a className='resetLink' href ="../../public">Reset</a></button> 
             
           </header>
         </div>

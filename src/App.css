@@ -1,19 +1,23 @@
+
 .title {
   width: 100%;
   margin-bottom: 50px;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,.4);
+  /*background-color: #0066CC;*/
+  background: url(https://www.desktopbackground.org/t/2014/01/25/706583_dragon-ball-z-backgrounds-scene-bing-images_1024x775_h.jpg) no-repeat left top;
+  background-size: cover;
+  border-radius: 8px;
+  padding: 25px 0 25px 0;
+
 }
 
 
 .score {
   display: inline;
-
+  font-family:  'Permanent Marker', cursive;
 }
 
 .header-container{
-  
-  width: 100%;
-  background: url(https://a9a7i7p4.stackpathcdn.com//wp-content/uploads/2014/03/DB_z.png) no-repeat left top;
-  background-size: contain;
-  padding: 10px;
-  
+  text-shadow: 2px 3px black;
+  font-family:  'Permanent Marker', cursive;
 }
